@@ -1,5 +1,5 @@
 pipeline {
-    agent master
+    agent node0
     stages {
         stage('Submit Stack') {
             steps {
